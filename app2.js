@@ -1,61 +1,61 @@
-// var num = [1, 2, 3, 4, 5]
-// num.push(6);
-// console.log(num); // [1, 2, 3, 4, 5, 6]
+var num = [1, 2, 3, 4, 5]
+num.push(6);
+console.log(num);
 
-// var words = ['hi', 'hello', 'there'];
-// words.push('here', 'way', true);
-// console.log(words);
-// words.pop();
-// console.log(words);
+var words = ['hi', 'hello', 'there'];
+words.push('here', 'way', true);
+console.log(words);
+words.pop();
+console.log(words);
 
-// var words = [1, 2, 3, 4, 5];
-// var element = words.pop();
-// console.log(element); 5
+var words = [1, 2, 3, 4, 5];
+var element = words.pop();
+console.log(element);
 
-// var numbers = [1, 2, 3];
-// numbers.unshift(4, 5);
-// console.log(numbers);
+var numbers = [1, 2, 3];
+numbers.unshift(4, 5);
+console.log(numbers);
 
-// var numbers = [1, 2, 3];
-// var firstElement = numbers.shift();
-// console.log(firstElement);
-// console.log(numbers);
+var numbers = [1, 2, 3];
+var firstElement = numbers.shift();
+console.log(firstElement);
+console.log(numbers);
 
-// console.log(5 < 6);
-// console.log(5 > 6);
-// console.log(5 == 5);
-// console.log(5 == 6);
-// console.log(5 != 6);
-// console.log(5 != 5);
-// console.log(5 >= 6);
-// console.log(5 >= 6);
+console.log(5 < 6);
+console.log(5 > 6);
+console.log(5 == 5);
+console.log(5 == 6);
+console.log(5 != 6);
+console.log(5 != 5);
+console.log(5 >= 6);
+console.log(5 >= 6);
 
 var fruits = ['Apple', 'Banana', 'Orange'];
-// console.log('banana index is', fruits.indexOf('Banana'));
+console.log('banana index is', fruits.indexOf('Banana'));
 fruits.pop();
 fruits.pop();
-// console.log(fruits);
+console.log(fruits);
 fruits.push('Mango');
-// console.log(fruits);
+console.log(fruits);
 fruits.push('Watermelon');
-// console.log(fruits);
-// var grade = [85, 66, 95, 56, 40];
+console.log(fruits);
+var grade = [85, 66, 95, 56, 40];
 
-// if (grade >= 80) {
-//     console.log('A grade');
-// }
-// else if (grade >= 60) {
-//     console.log('B grade');
-// }
-// else if (grade >= 50) {
-//     console.log('C grade');
-// }
-// else if (grade >= 40) {
-//     console.log('D grade');
-// }
-// else if (grade <= 39) {
-//     console.log('F grade');
-// }
+if (grade >= 80) {
+    console.log('A grade');
+}
+else if (grade >= 60) {
+    console.log('B grade');
+}
+else if (grade >= 50) {
+    console.log('C grade');
+}
+else if (grade >= 40) {
+    console.log('D grade');
+}
+else if (grade <= 39) {
+    console.log('F grade');
+}
 
 var num1 = 13;
 var num2 = 79;
